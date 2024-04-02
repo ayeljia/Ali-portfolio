@@ -1,0 +1,527 @@
+body {
+  background-color: antiquewhite;
+}
+
+.header {
+  background-color: rgb(29, 23, 23);
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1px;
+  width: 100%;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  background-color: rgb(129, 134, 134);
+  padding: 10px;
+  transition-duration: 1ms;
+  transition-delay: 0.5s;
+  border-radius: 10px;
+}
+div > h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-style: italic;
+  color: rgba(255, 0, 0, 0.836);
+}
+
+img {
+  width: 550px;
+  height: 550px;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+}
+.all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contain {
+  display: block;
+  width: 100%;
+}
+
+.What {
+  font-weight: bold;
+  font-size: 30px;
+}
+.paragragh {
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+  line-height: 1px;
+  margin-left: 20px;
+}
+#paragragh {
+  font-size: 28px;
+  color: deeppink;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.foot {
+  background-color: rgb(29, 23, 23);
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+  display: block;
+  padding: 40px;
+}
+
+li {
+  font-size: 26px;
+}
+@media (max-width: 319px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  .header {
+    background-color: rgb(29, 23, 23);
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  a:hover {
+    background-color: rgb(129, 134, 134);
+    padding: 10px;
+    transition-duration: 1ms;
+    transition-delay: 0.5s;
+    border-radius: 10px;
+  }
+  div > h1 {
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.836);
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: none;
+  }
+  .all {
+    display: block;
+    text-align: center;
+  }
+  .contain {
+    display: block;
+    width: 100%;
+  }
+
+  .What {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .paragragh {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    line-height: 1px;
+    margin-left: 10px;
+  }
+  #paragragh {
+    font-size: 16px;
+    color: deeppink;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .foot {
+    background-color: rgb(29, 23, 23);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    display: block;
+    padding: 20px;
+  }
+
+  li {
+    font-size: 14px;
+    list-style: none;
+  }
+}
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  .header {
+    background-color: rgb(29, 23, 23);
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  a:hover {
+    background-color: rgb(129, 134, 134);
+    padding: 10px;
+    transition-duration: 1ms;
+    transition-delay: 0.5s;
+    border-radius: 10px;
+  }
+  div > h1 {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.836);
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: none;
+  }
+  .all {
+    display: block;
+    text-align: center;
+  }
+  .contain {
+    display: block;
+    width: 100%;
+  }
+
+  .What {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .paragragh {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    line-height: 1px;
+    margin-left: 10px;
+  }
+  #paragragh {
+    font-size: 18px;
+    color: deeppink;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .foot {
+    background-color: rgb(29, 23, 23);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    display: block;
+    padding: 20px;
+  }
+
+  li {
+    font-size: 16px;
+    list-style: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  .header {
+    background-color: rgb(29, 23, 23);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  a:hover {
+    background-color: rgb(129, 134, 134);
+    padding: 10px;
+    transition-duration: 1ms;
+    transition-delay: 0.5s;
+    border-radius: 10px;
+  }
+  div > h1 {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.836);
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .all {
+    display: block;
+    text-align: center;
+  }
+  .contain {
+    display: block;
+    width: 100%;
+  }
+
+  .What {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .paragragh {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    line-height: 1px;
+    margin-left: 10px;
+  }
+  #paragragh {
+    font-size: 18px;
+    color: deeppink;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .foot {
+    background-color: rgb(29, 23, 23);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    display: block;
+    padding: 20px;
+  }
+
+  li {
+    font-size: 16px;
+    list-style: none;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  .header {
+    background-color: rgb(29, 23, 23);
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1px;
+    width: 100%;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  a:hover {
+    background-color: rgb(129, 134, 134);
+    padding: 10px;
+    transition-duration: 1ms;
+    transition-delay: 0.5s;
+    border-radius: 10px;
+  }
+  div > h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.836);
+  }
+
+  img {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+  }
+  .all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contain {
+    display: block;
+    width: 100%;
+  }
+
+  .What {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .paragragh {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    line-height: 1px;
+    margin-left: 20px;
+  }
+  #paragragh {
+    font-size: 28px;
+    color: deeppink;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .foot {
+    background-color: rgb(29, 23, 23);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    display: block;
+    padding: 40px;
+  }
+
+  li {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1601px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  .header {
+    background-color: rgb(29, 23, 23);
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1px;
+    width: 100%;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  a:hover {
+    background-color: rgb(129, 134, 134);
+    padding: 10px;
+    transition-duration: 1ms;
+    transition-delay: 0.5s;
+    border-radius: 10px;
+  }
+  div > h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.836);
+  }
+
+  img {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+  }
+  .all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contain {
+    display: block;
+    width: 100%;
+  }
+
+  .What {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .paragragh {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    line-height: 1px;
+    margin-left: 20px;
+  }
+  #paragragh {
+    font-size: 28px;
+    color: deeppink;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .foot {
+    background-color: rgb(29, 23, 23);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    display: block;
+    padding: 40px;
+  }
+
+  li {
+    font-size: 26px;
+  }
+}
